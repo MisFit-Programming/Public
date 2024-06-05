@@ -16,16 +16,21 @@ header {
 nav ul {
     list-style: none;
     padding: 0;
+    display: flex;
+    justify-content: center;
 }
 
 nav ul li {
-    display: inline;
     margin: 0 10px;
 }
 
 nav ul li a {
     color: #fff;
     text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #ff5722; /* Orange hover effect */
 }
 
 section {
@@ -40,20 +45,16 @@ section {
     margin-bottom: 20px;
 }
 
-h2, h3, h4 {
-    color: #333;
-}
-
 h2 {
-    color: #d32f2f; /* red for h2 headings */
+    color: #d32f2f; /* Red for h2 headings */
 }
 
 h3 {
-    color: #ff5722; /* orange for h3 headings */
+    color: #ff5722; /* Orange for h3 headings */
 }
 
 h4 {
-    color: #333; /* keeping h4 headings black */
+    color: #333; /* Keeping h4 headings black */
 }
 
 ul {
@@ -72,8 +73,11 @@ footer {
 }
 
 @media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+    }
+
     nav ul li {
-        display: block;
         margin: 5px 0;
     }
 
