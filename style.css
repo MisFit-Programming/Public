@@ -35,16 +35,13 @@ section {
     border-radius: 8px;
 }
 
-.project {
+.project, .job, .section {
     margin-bottom: 20px;
 }
 
-footer {
-    text-align: center;
-    padding: 10px 0;
-    background-color: #333;
-    color: #fff;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+h2, h3, h4 {
+    color: #333;
 }
+
+ul {
+    list-style-type: disc
