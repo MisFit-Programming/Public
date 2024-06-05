@@ -2,13 +2,13 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #121212; /* Dark background */
+    color: #e0e0e0; /* Light text color */
 }
 
 header {
-    background-color: #000;
-    color: #fff;
+    background-color: #000; /* Black header background */
+    color: #fff; /* White header text */
     padding: 10px 0;
     text-align: center;
 }
@@ -25,7 +25,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff;
+    color: #ff0000; /* Red links */
     text-decoration: none;
 }
 
@@ -36,9 +36,9 @@ nav ul li a:hover {
 section {
     padding: 20px;
     margin: 20px;
-    background-color: #fff;
+    background-color: #1e1e1e; /* Dark section background */
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Darker shadow */
 }
 
 .project, .job, .section {
@@ -46,7 +46,7 @@ section {
 }
 
 h2 {
-    color: #d32f2f; /* Red for h2 headings */
+    color: #ff0000; /* Red for h2 headings */
 }
 
 h3 {
@@ -54,7 +54,7 @@ h3 {
 }
 
 h4 {
-    color: #000; /* Black for h4 headings */
+    color: #ff0000; /* Red for h4 headings */
 }
 
 ul {
@@ -65,8 +65,8 @@ ul {
 footer {
     text-align: center;
     padding: 10px 0;
-    background-color: #000;
-    color: #fff;
+    background-color: #000; /* Black footer background */
+    color: #fff; /* White footer text */
     position: fixed;
     bottom: 0;
     width: 100%;
