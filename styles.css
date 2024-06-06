@@ -2,17 +2,17 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background: linear-gradient(to right, #141E30, #243B55);
-  color: #e0e0e0;
+  background-color: #121212;
+  color: #E0E0E0;
 }
 
 header {
-  background-color: #1f1f1f;
-  color: #ffa500;
+  background-color: #1F1F1F;
+  color: #F7C948;
   padding: 20px;
   text-align: center;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  border-bottom: 1px solid #ffa500;
+  border-bottom: 1px solid #F7C948;
 }
 
 .header-content h1 {
@@ -28,7 +28,7 @@ nav ul {
   list-style-type: none;
   padding: 0;
   text-align: center;
-  background-color: #ff5733;
+  background-color: #FF6F61;
   margin: 0;
 }
 
@@ -38,7 +38,7 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #fff;
+  color: #E0E0E0;
   text-decoration: none;
   font-weight: bold;
 }
@@ -48,7 +48,7 @@ main {
 }
 
 section {
-  background-color: #1f1f1f;
+  background-color: #1F1F1F;
   padding: 20px;
   margin: 20px 0;
   border-radius: 10px;
@@ -62,13 +62,13 @@ section.visible {
 }
 
 section h2 {
-  color: #ffa500;
-  border-bottom: 2px solid #ffa500;
+  color: #F7C948;
+  border-bottom: 2px solid #F7C948;
   padding-bottom: 5px;
 }
 
 h3 {
-  color: #ff5733;
+  color: #FF6F61;
 }
 
 p, ul {
@@ -80,17 +80,18 @@ ul {
 }
 
 a {
-  color: #ffa500;
+  color: #FF6F61;
   text-decoration: none;
 }
 
 a:hover {
+  color: #F7C948;
   text-decoration: underline;
 }
 
 footer {
-  background-color: #1f1f1f;
-  color: #e0e0e0;
+  background-color: #1F1F1F;
+  color: #E0E0E0;
   text-align: center;
   padding: 10px 0;
   position: fixed;
