@@ -3,6 +3,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #121212;
+  background: linear-gradient(to right, #141E30, #243B55);
   color: #e0e0e0;
 }
 
@@ -11,6 +12,8 @@ header {
   color: #ffa500;
   padding: 20px;
   text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid #ffa500;
 }
 
 .header-content h1 {
@@ -47,6 +50,11 @@ main {
 
 section {
   margin: 20px 0;
+  background-color: #1f1f1f;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 section h2 {
@@ -84,4 +92,6 @@ footer {
   position: fixed;
   width: 100%;
   bottom: 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid #ffa500;
 }
