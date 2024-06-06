@@ -2,7 +2,6 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #121212;
   background: linear-gradient(to right, #141E30, #243B55);
   color: #e0e0e0;
 }
@@ -49,12 +48,17 @@ main {
 }
 
 section {
-  margin: 20px 0;
   background-color: #1f1f1f;
   padding: 20px;
   margin: 20px 0;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+section.visible {
+  opacity: 1;
 }
 
 section h2 {
@@ -92,6 +96,4 @@ footer {
   position: fixed;
   width: 100%;
   bottom: 0;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  border-bottom: 1px solid #ffa500;
 }
